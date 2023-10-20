@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12479685&assignment_repo_type=AssignmentRepo)
 # Graph Representations
 
 Implement a function that converts an adjacency matrix to an adjacency list for
@@ -19,3 +20,11 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+## My Analysis
+
+This is a simple runtime analysis because it is just two nested for-loops that each increment through the total number of nodes. All the operations within those loops take constant time so they are not considered. So, using $V$ to represent vertices, our runtime is $\Theta(|V|^2)$
+
+### Sources:
+https://www.geeksforgeeks.org/javascript-multidimensional-array/
+https://sentry.io/answers/how-do-i-empty-an-array-in-javascript/
