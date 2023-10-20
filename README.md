@@ -20,3 +20,7 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+## My Analysis
+
+This is a simple runtime analysis because it is just two nested for-loops that each increment through the total number of nodes. All the operations within those loops take constant time so they are not considered. So, using $V$ to represent vertices, our runtime is $\Theta(|V|^2)$
